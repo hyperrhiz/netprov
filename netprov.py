@@ -32,7 +32,7 @@ def worker(stem="netprov"): # this section makes it so you can run the script wi
                 timedate=" "
                 print "No timestamp"
         try:
-            tweettext = li.find("p", "js-tweet-text tweet-text").get_text().encode("utf-8").replace("\n","") Tasty tweet text
+            tweettext = li.find("p", "js-tweet-text tweet-text").get_text().encode("utf-8").replace("\n","") #Tasty tweet text
         except:
             tweettext = " "
             print "No tweet text"
