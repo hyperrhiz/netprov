@@ -16,4 +16,5 @@ python netprov.py sootfall
 
 For example of output (pretty printed in HTML), see http://www.hyperrhiz.net/hyperrhiz11/archives/sootfall.php.
  
-Thanks to Simon Hudson http://hudsonsoapbox.com/2013/06/09/extracting-historical-data-from-twitter-using-python/
+Thanks to Tim Menzies http://menzies.us/
+and Simon Hudson http://hudsonsoapbox.com/2013/06/09/extracting-historical-data-from-twitter-using-python/
