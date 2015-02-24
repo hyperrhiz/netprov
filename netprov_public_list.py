@@ -13,7 +13,7 @@ def worker(stem="netprov"): # this section makes it so you can run the script wi
   
     litop = soup.find_all("li", "js-stream-item stream-item stream-item expanding-stream-item ") # all the tasty stuff is inside li tags with this style
 
-    for li in litop:
+    for li in reversed(litop): # reversed so we go forward in time. If you want it to go from newest to oldest, replace reversed(litop) with litop
         try:
             username = li.find("span", "username js-action-profile-name").get_text()
         except:

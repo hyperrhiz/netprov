@@ -13,7 +13,7 @@ def worker(stem="netprov"): # this section makes it so you can run the script wi
   
     divtop = soup.find_all("div", "StreamItem js-stream-item") # all the tasty stuff is inside div tags with this style
 
-    for div in divtop:
+    for div in reversed(divtop): # reversed so we go forward in time. If you want it to go from newest to oldest, replace reversed(divtop) with divtop
         try:
             username = div.find("span", "ProfileTweet-screenname u-dir").get_text()
         except:
