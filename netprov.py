@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # thanks to Simon Hudson for a substantial portion of this script. http://hudsonsoapbox.com/2013/06/09/extracting-historical-data-from-twitter-using-python/
-
+# for use with searches by username, not hashtag
 import csv, sys
 from bs4 import BeautifulSoup
 
